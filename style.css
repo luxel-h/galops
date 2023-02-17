@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #00b4d8ff;
+}
+
+.f1 {
+    font-family: Arial, Helvetica, sans-serif;;
+}
+
+.div_menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: white;
+}
+
+.div_menu_child {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.menu_element {
+    color: black;
+    text-decoration: none;
+    font-size: large;
+    padding: 12px;
+}
