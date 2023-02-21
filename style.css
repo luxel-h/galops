@@ -173,6 +173,11 @@ nav li:hover .div_underline,
     padding-bottom: 0.5vw;
     padding-left: 0.2em;
     padding-right: 0.2em;
+    transition: all 0.2s ease-in-out;
+}
+
+.program_element_text h2:hover {
+    color: #0077b6ff;
 }
 
 .program_div_underline {
@@ -184,10 +189,6 @@ nav li:hover .div_underline,
     width: 0;
     height: 0.1em;
     transition: all 0.2s ease-in-out;
-}
-
-.program_element_text h2:hover {
-    color: #0077b6ff;
 }
 
 .program_element_text h2:hover .program_div_underline {
@@ -293,4 +294,13 @@ footer {
 
 footer a:hover {
     color: #caf0f8ff;
+}
+
+@media (max-width: 1000px) {
+    .nav_right {
+        position: absolute;
+        visibility: hidden;
+    }
+
+    
 }
