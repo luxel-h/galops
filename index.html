@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
     <title>Galops - Accueil</title>
 </head>
 
@@ -31,11 +32,11 @@
                 <span class="nav_separator"></span>
                 <li><a href="#">Galop 4</a><div class="div_underline"></div></li>
                 <span class="nav_separator"></span>
-                <li><a href="#">Galop 5</a><div class="div_underline"></div></li>
+                <li><a href="#galop5">Galop 5</a><div class="div_underline"></div></li>
                 <span class="nav_separator"></span>
-                <li><a href="#">Galop 6</a><div class="div_underline"></div></li>
+                <li><a href="#galop6">Galop 6</a><div class="div_underline"></div></li>
                 <span class="nav_separator"></span>
-                <li><a href="#">Galop 7</a><div class="div_underline"></div></li>
+                <li><a href="#galop7">Galop 7</a><div class="div_underline"></div></li>
             </ul>
         </nav>
     </header>
@@ -48,11 +49,9 @@
         <div class="program_element">
             <img src="img/galop_5.jpg">
             <div class="program_element_text">
-                <h2><a href="#">Galop 5</a><div class="program_div_underline"></div></h2>
+                <h2 id="galop5">Galop 5<div class="program_div_underline"></div></h2>
                 <div class="program_element_text_child">
-                    <div class="program_element_text_child_general_for_hover"></div>
-                    <div class="program_element_text_child_horse_for_hover"></div>
-                    <ul class="program_element_text_child_general">
+                    <ul class="program_element_text_child_general" onmouseover="generalOnMouseOver(0)" onmouseout="generalOnMouseOut(0)">
                         <li>Définir la cession à la jambe et ses critères de jugement.</li>
                         <li>Définir les transitions, qualités, défauts.</li>
                         <li>Reconnaitre et nommer les principaux mors de filet.</li>
@@ -63,7 +62,7 @@
                         <li>Expliquer les listes et l'obligation d'inscription pour concourir.</li>
                     </ul>
                     <div class="program_element_separator"></div>
-                    <ul class="program_element_text_child_horse">
+                    <ul class="program_element_text_child_horse" onmouseover="horseOnMouseOver(0)" onmouseout="horseOnMouseOut(0)">
                         <li>Connaître les grands principes d'apprentissage permettant d'apprendre au cheval.</li>
                         <li>En donner des exemples et les conditions et limites de leur usage.</li>
                         <li>Identifier des différents types de Pie, de tachetés, des adjonctions.</li>
@@ -83,11 +82,11 @@
         <div class="program_element">
             <img src="img/galop_6.jpg">
             <div class="program_element_text">
-                <h2><a href="#">Galop 6</a><div class="program_div_underline"></div></h2>
+                <h2 id="galop6">Galop 6<div class="program_div_underline"></div></h2>
                 <div class="program_element_text_child">
                     <div class="program_element_text_child_general_for_hover"></div>
                     <div class="program_element_text_child_horse_for_hover"></div>
-                    <ul class="program_element_text_child_general">
+                    <ul class="program_element_text_child_general" onmouseover="generalOnMouseOver(1)" onmouseout="generalOnMouseOut(1)">
                         <li>Expliquer les critères de jugement des mouvements d'une reprise de dressage Club.</li>
                         <li>Expliquer les allures artificielles ou défectueuses.</li>
                         <li>Citer les critères de qualité ou les défauts des allures.</li>
@@ -98,7 +97,7 @@
                         <li>Citer les noms des principaux obstacles de Cross.</li>
                     </ul>
                     <div class="program_element_separator"></div>
-                    <ul class="program_element_text_child_horse">
+                    <ul class="program_element_text_child_horse" onmouseover="horseOnMouseOver(1)" onmouseout="horseOnMouseOut(1)">
                         <li>Décrire le pied et la ferrure.</li>
                         <li>Lister les principales maladies du cheval et leurs symptômes.</li>
                         <li>Expliquer les variations des besoins alimentaires du cheval en fonction de différents facteurs à prendre en compte.</li>
@@ -121,18 +120,18 @@
         <div class="program_element">
             <img src="img/galop_7.jpg">
             <div class="program_element_text">
-                <h2><a href="#">Galop 7</a><div class="program_div_underline"></div></h2>
+                <h2 id="galop7">Galop 7<div class="program_div_underline"></div></h2>
                 <div class="program_element_text_child">
                     <div class="program_element_text_child_general_for_hover"></div>
                     <div class="program_element_text_child_horse_for_hover"></div>
-                    <ul class="program_element_text_child_general">
+                    <ul class="program_element_text_child_general" onmouseover="generalOnMouseOver(2)" onmouseout="generalOnMouseOut(2)">
                         <li>Définir l'épaule en dedans, qualités et défauts d'exécution.</li>
                         <li>Connaître le rôle et l'effet de la bride.</li>
                         <li>Expliquer ce qu'est la rectitude.</li>
                         <li>Connaître les principaux enrênements du travail en longe : but, effets.</li>
                     </ul>
                     <div class="program_element_separator"></div>
-                    <ul class="program_element_text_child_horse">
+                    <ul class="program_element_text_child_horse" onmouseover="horseOnMouseOver(2)" onmouseout="horseOnMouseOut(2)">
                         <li>Identifier et nommer les défauts d'aplombs principaux des membres.</li>
                         <li>Pouvoir identifier un cheval en utilisant les outils si besoin.</li>
                         <li>Savoir lire un livret et vérifier le signalement d'un cheval.</li>

@@ -176,16 +176,12 @@ nav li:hover .div_underline,
     transition: all 0.2s ease-in-out;
 }
 
-.program_element_text h2:hover {
-    color: #0077b6ff;
-}
-
 .program_div_underline {
     position: absolute;
     bottom: 0;
     left: 50%;
     right: 0;
-    background-color: #0077b6ff;
+    background-color: #03045eff;
     width: 0;
     height: 0.1em;
     transition: all 0.2s ease-in-out;
@@ -240,46 +236,16 @@ nav li:hover .div_underline,
 
 .program_element_general_title {
     left: 50%;
+    transition: all 0.2s ease-in-out;
 }
 
 .program_element_horse_title {
     right: 50%;
-}
-
-.program_element_text_child_horse_for_hover {
-    position: absolute;
-    z-index: 1;
-    right: 0;
-    height: 100%;
-    width: 50%;
-}
-
-.program_element_text_child_general_for_hover {
-    position: absolute;
-    z-index: 1;
-    left: 0;
-    height: 100%;
-    width: 50%;
-}
-
-.program_element_text_child_horse,
-.program_element_text_child_general {
-    opacity: 1;
     transition: all 0.2s ease-in-out;
-    transition-delay: 0.2s;
 }
 
-.program_element_text_child_general_for_hover:hover~.program_element_text_child_horse,
-.program_element_text_child_horse_for_hover:hover~.program_element_text_child_general {
-    opacity: 0;
-    transition-delay: 0s;
-}
-
-.program_element_text_child_general_for_hover:hover~.program_element_general_title,
-.program_element_text_child_horse_for_hover:hover~.program_element_horse_title {
-    width: 50%;
-    visibility: visible;
-    transition-delay: 0.2s;
+.program_element_text_child_general, .program_element_text_child_horse {
+    transition: all 0.2s ease-in-out;
 }
 
 footer {
@@ -301,6 +267,4 @@ footer a:hover {
         position: absolute;
         visibility: hidden;
     }
-
-    
 }
