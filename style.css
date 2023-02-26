@@ -99,8 +99,9 @@ nav li:hover .div_underline,
     justify-content: flex-start;
     align-items: flex-end;
     flex-wrap: wrap;
-    color: #0077b6ff;
-    font-size: 5.7vw;
+    color: #03045eff;
+    /* font-size: 5.7vw;  */
+    font-size: 4.3vw;
     font-weight: 700;
     height: 30vw;
     padding-top: 1vw;
@@ -108,6 +109,8 @@ nav li:hover .div_underline,
 }
 
 .div_main_title h1 {
+    /* padding-left: 0; */
+    padding-left: 25vw;
     position: relative;
 }
 
