@@ -1,0 +1,32 @@
+.entry_section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1vw 5vw;
+}
+
+.entry_section img {
+    height: 150px;
+    padding: 0 2vw;
+}
+
+.entry_element {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    padding: 0.2vw;
+}
+
+.button_section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.button_section button {
+    padding: 0.5vw 2vw;
+    margin: 1vw;
+    font-size: medium;   
+}
